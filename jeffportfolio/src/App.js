@@ -2,11 +2,15 @@ import logo from './logo.svg';
 import './App.css';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
+import About from './components/About';
+import Header from './components/Header'
 
 function App() {
   return (
     <div className="App">
       <Nav />
+      <Header/>
+  
       
 
       <Footer />
