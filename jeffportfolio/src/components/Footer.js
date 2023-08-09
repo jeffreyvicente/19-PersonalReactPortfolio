@@ -4,8 +4,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSquareTwitter, faSquareGithub, faLinkedin,faEnvelope } from '@fortawesome/free-brands-svg-icons'
 
 
-
-
 export default function Footer(){
 
 

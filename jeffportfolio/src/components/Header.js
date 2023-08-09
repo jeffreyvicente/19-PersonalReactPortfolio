@@ -13,8 +13,8 @@ export default function Header() {
                 <div className="d-flex justify-content-center align-items-center h-100">
                     <div className="text-white">
                         <h1 className="mb-2">Jeffrey Vicente</h1>
-                        <h4 className="mb-4">Inspiring fullstack devoloper</h4>
-                        <a className="btn btn-outline-light btn-med" href="#!" role="button">
+                        <h4 className="mb-4">Aspiring fullstack devoloper</h4>
+                        <a className="btn btn-outline-light btn-med" href="#contact" role="button">
                             Contact Me
                         </a>
                     </div>
