@@ -12,3 +12,10 @@
 footer {
     margin-top: auto; /* Push the footer to the bottom of the page */
 }
+
+.card-img-top10 {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
