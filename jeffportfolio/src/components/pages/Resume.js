@@ -13,7 +13,7 @@ export default function Resume() {
         
           
           <h2 className = 'skills-header text-center p-4'>My developer proficiencies</h2> 
-          <p> I have successfully crafted dynamic and user-centric web applications. Leveraging my expertise in cutting-edge technologies such as React, HTML5, and CSS3, I've seamlessly translated design concepts into intuitive user interfaces. 
+          <p> I have successfully crafted dynamic and user-centric web applications. Leveraging technologies such as React, HTML5, and CSS3, I've seamlessly translated design concepts into user interfaces. 
             My proficiency in backend technologies like Node.js enables me to build robust and scalable server-side solutions. With a solid foundation in Java, I've developed versatile applications that combine functionality with sleek design. 
             My hands-on experience in database management ensures seamless data organization and retrieval. 
             Passionate about code quality, I consistently apply best practices to deliver responsive and visually appealing websites that elevate user experiences.</p>  

@@ -9,7 +9,7 @@ export default function Footer(){
 
     return(
         
-        <footer className="bg-dark text-white text-center py-3">
+        <footer className="footer bg-dark text-white text-center py-3 mt-5">
             <div>
                 <a
                     className="btn btn-link btn-floating btn-lg text-dark m-1"
