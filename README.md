@@ -60,7 +60,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 ```
 
 ## Preview
-View TextScribe hosted on [Heroku](https://textscribe-a44a925d489a.herokuapp.com/)
+View TextScribe hosted on [Github](https://jeffreyvicente.github.io/20-PersonalReactPortfolio/#home)
 
 ![alt text](/src/assets/images/projectImages/portfolioDemo.gif)
 
