@@ -1,6 +1,7 @@
 import React from 'react';
 // Project should be like 24 Student
 
+// Navbar component that displays navigation links and handles page changes
 function Nav({currentPage, handlePageChange}){
 
     return( 
@@ -8,10 +9,12 @@ function Nav({currentPage, handlePageChange}){
            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
           </button>
-     
+
+          {/* Navigation links */}
+
           <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item  ">
+            <li className="nav-item  ">
               <a  
                 href="#home"
                 onClick = {() => handlePageChange('Home')}
@@ -56,5 +59,8 @@ function Nav({currentPage, handlePageChange}){
       </nav>
     );
 }
+
+
+
 
 export default Nav;

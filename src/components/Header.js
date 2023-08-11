@@ -1,6 +1,9 @@
 import React from 'react';
 import headerImage from '../assets/images/headerImage2.jpg'
 
+
+// Header component displaying a hero section with background image and text
+
 export default function Header() {
     return (
         <div
@@ -9,7 +12,8 @@ export default function Header() {
                 backgroundImage: `url(${headerImage})`,
                 height: '250px',
             }}
-        >
+        >       
+                {/* Centered content */}
                 <div className="d-flex justify-content-center align-items-center h-100">
                     <div className="text-white">
                         <h1 className="mb-2">Jeffrey Vicente</h1>
@@ -23,13 +27,3 @@ export default function Header() {
     );
 }
 
-/*
-
-    <div className= "p-5 text-center bg-light">
-            <h1 className = "mb-3">Heading</h1>
-            <h4 className = "mb-3">Subheading</h4>
-            <a class="btn btn-primary" href="" role="button">Call to action</a>
-
-        </div>
-
-*/

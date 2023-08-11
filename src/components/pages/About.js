@@ -1,15 +1,17 @@
 import React from 'react';
 import avatar from '../../assets/images/personalAvatar.PNG'
 
+
+// Component for displaying information about myself
 export default function About() { 
     return (
         <div className='aboutme p-5 m-5'>
             <div className='row mt-3 my-3'>
-            <div class="col-sm-6 col-lg-4 d-flex justify-content-center align-items-center">
+            <div className="col-sm-6 col-lg-4 d-flex justify-content-center align-items-center">
                     <img src={avatar} alt="Image description" style={{ width: '50%', height: 'auto' }}/>
                     
                 </div>
-                    <div class="col-sm-6 col-lg-8">
+                    <div className="col-sm-6 col-lg-8">
                     <div>
                             <h3>About Me</h3>
                             <p> 
@@ -23,7 +25,7 @@ export default function About() {
                             </p>
                     </div>
                 </div>
-              
+
             </div>
           
         </div>

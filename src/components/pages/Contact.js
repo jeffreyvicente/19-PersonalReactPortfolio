@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 
 export default function Contact() {
+
+    // State to manage form data and errors
     const [formData, setFormData] = useState({
         email: '',
         name: '',
@@ -13,6 +15,7 @@ export default function Contact() {
         message: '',
     });
 
+    // Function to handle input changes and update form data
     const handleInputChange = (event) => {
         const { name, value } = event.target;
         setFormData({
@@ -21,6 +24,7 @@ export default function Contact() {
         });
     };
 
+    // Function to validate form data
     const validateForm = () => {
         let isValid = true;
         const newErrors = { ...errors };
@@ -53,28 +57,29 @@ export default function Contact() {
         return isValid;
     };
 
+    // Function to handle form submission
     const handleSubmit = (event) => {
         event.preventDefault();
 
         if (validateForm()) {
             // Perform form submission or data processing here
-            console.log('Form is valid. Submitting...');
+            console.log('Email is sending');
         } else {
-            console.log('Form validation failed.');
+            console.log('Form has missing data.');
         }
     };
 
     return (
         <div>
             <div className="d-flex justify-content-center align-items-center h-100">
-                <div className="text-center p-5">
+                <div className="text-center p-3">
                     <p>
-                        {/* Your introduction text */}
+                        If you would like to reach me please email me, or use the form below!!
                     </p>
                 </div>
             </div>
 
-            <form className="mx-5" onSubmit={handleSubmit}>
+            <form className="mx-2" onSubmit={handleSubmit}>
                 <div className="form-group p-2">
                     <label htmlFor="exampleInputEmail1">Email address</label>
                     <input
@@ -127,6 +132,7 @@ export default function Contact() {
     );
 }
 
+// Validate email format
 function isValidEmail(email) {
     const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return emailPattern.test(email);
