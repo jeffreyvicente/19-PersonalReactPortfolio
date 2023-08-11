@@ -1,7 +1,8 @@
-# 20-PersonalReactPortfolio
+Personal React Portfolio
 
 ## Description
-TextScribe is a  text editor that runs in the browser as a Progressive Web Application (PWA). It allows users to create, edit, and manage text documents seamlessly. The app incorporates data persistence techniques using IndexedDB, ensuring data redundancy and offline functionality.
+Welcome to my web developer portfolio! This react page showcases my skills, projects, and contact information. 
+Feel free to explore different sections and learn more about me.
 
 ## Table of Contents
 
@@ -14,13 +15,13 @@ TextScribe is a  text editor that runs in the browser as a Progressive Web Appli
 
 
 ## Installation
-To run TextScribe, follow these steps:
+To run my personal portfolio, follow these steps:
 
 1. Clone this repository to your local machine.
 2. Open the terminal and navigate to the project's root directory.
-3. Install dependencies using npm install or yarn install.
+3. Install dependencies using npm install.
 4. Start the development server with npm start.
-5. Open your browser and visit http://localhost:3000 to access TextScribe.
+5. Open your browser and visit http://localhost:3000 to access the portfolio.
 
 ## User Story
 ```
@@ -61,19 +62,19 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 ## Preview
 View TextScribe hosted on [Heroku](https://textscribe-a44a925d489a.herokuapp.com/)
 
-![alt text](/media/HomeScreenshot.png)
-Project Homescreen to allow text to be typed
+![alt text](/src/assets/images/projectImages/portfolioDemo.gif)
 
-![alt text](/media/InstallApp.png)
-Option to install the application as a PWA
+
 
 ## Features
-The TextScrbe API has the following features:
-- Create new text documents
-- Save documents to IndexedDB for data persistence
-- Supports markdown syntax for formatting
+The Personal React Portfolio has the following pages:
+- About Me - In the About Me section, you'll find a recent photo or avatar of me, along with a brief bio. 
+- Portfolio - The Portfolio section highlights some of my noteworthy projects.
+- Contact - Have a question or want to collaborate? The Contact section provides a convenient way to get in touch. 
+- Resume - Explore my qualifications and proficiencies in the Resume section. 
 
 ## Technologies Used
-- IndexedDB: Local data storage
-- idb: IndexedDB wrapper for simplified data handling
-- Service Workers: Enabling PWA capabilities
+- HTML5
+- JavaScript 
+- React
+- Bootstrap
